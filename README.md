@@ -52,8 +52,8 @@ To add a new movement pattern to the orchestration layer, you must first registe
 ### 1. Define Keypoint Topologies
 Map your structural coordinates using the standard **MediaPipe BlazePose Landmark Schema**:
 
-```<img width="1999" height="1010" alt="image4 (1)" src="https://github.com/user-attachments/assets/f449e3ff-7555-4ab0-a80e-925f55aef186" />
-```
+<img width="1999" height="1010" alt="image4 (1)" src="https://github.com/user-attachments/assets/dff26ffc-94d0-4b07-8c30-d2454a7154e3" />
+
 
 Add your custom profile block to the JSON file. You can pass placeholder values (`0.0`) for the inner execution limits (`start_angle`, `mid_angle`, `target_angle`, `torso_baseline`), as the engine will calculate these automatically during the calibration phase:
 
