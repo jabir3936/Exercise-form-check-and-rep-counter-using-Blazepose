@@ -27,8 +27,8 @@ pip install -r requirements.txt
 
 ### 2. Download the Model Weights
 The pipeline requires MediaPipe's asset bundle to calculate coordinates. Download the model and place it directly into your root project directory:
-* [Download MediaPipe Pose Landmarker (Full Model)](https://storage.googleapis.com/mediapipe-models/pose_landmarker/pose_landmarker_full/float16/1/pose_landmarker_full.task)
-* Ensure the downloaded file is saved exactly as: `pose_landmarker_full.task`
+* [Download MediaPipe Pose Landmarker (Full Model)](https://developers.google.com/edge/mediapipe/solutions/vision/pose_landmarker/index?_gl=1*1h04wk7*_up*MQ..*_ga*NTgyNDc1Njk2LjE3ODEwNTA4Mzc.*_ga_SM8HXJ53K2*czE3ODEwNTA4MzckbzEkZzAkdDE3ODEwNTA4MzckajYwJGwwJGgw#models)
+* Ensure the downloaded file is saved exactly as: `pose_landmarker_full.task` .
 
 ### 3. Execution
 Run the live tracker against an existing video file or stream directly from your local webcam:
