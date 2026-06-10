@@ -144,7 +144,3 @@ Upon exiting the application window, session metadata is compiled into a structu
 ```
 
 ---
-
-##  License
-
-This software framework is distributed under the **MIT License**. It grants full commercial execution permissions, modifications, and closed-source private integration structures without legal restrictions, while providing comprehensive developer liability protection.
