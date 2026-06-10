@@ -2,6 +2,8 @@
 
 A production-ready, edge-native Computer Vision pipeline built on top of MediaPipe BlazePose. This system assists users by evaluating human telemetry in real time, verifying execution form against anatomical benchmarks, and tracking precise repetition counts using an isolated state machine.
 
+<img width="800" height="544" alt="ezgif-6d4740da39616f3f" src="https://github.com/user-attachments/assets/56fe2da6-5716-4aa4-9fa7-0c283e597a64" />
+
 ---
 
 ##  Key Architectural Features
