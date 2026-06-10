@@ -1,4 +1,4 @@
-# Exercise-Form Check and Rep Counter Using Blazepose
+# Exercise Form Check and Rep Counter Using Blazepose
 
 A production-ready, Computer Vision pipeline built on top of MediaPipe BlazePose. This system assists users by evaluating human telemetry in real time, verifying execution form against anatomical benchmarks, and tracking precise repetition counts using an isolated state machine.
 
