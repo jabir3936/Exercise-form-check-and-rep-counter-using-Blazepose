@@ -1,6 +1,6 @@
 # Exercise Form Check and Rep Counter Using Blazepose
 
-A production-ready, Computer Vision pipeline built on top of MediaPipe BlazePose. This system assists users by evaluating human form in real time, verifying execution form against anatomical benchmarks, and tracking precise repetition counts using an isolated state machine.
+A production-ready, Computer Vision pipeline built on top of MediaPipe BlazePose. This system assists users by evaluating human pose in real time, verifying execution form against anatomical benchmarks, and tracking precise repetition counts using an isolated state machine.
 
 <img width="800" height="544" alt="ezgif-6d4740da39616f3f" src="https://github.com/user-attachments/assets/66de88f2-bb9f-42cd-a6cf-ba9d894af643" />
 
@@ -47,7 +47,7 @@ Currently calibrated exercises out-of-the-box inside `exercise_configs.json`: **
 
 ---
 
-##  Calibration & Custom Exercise Creation
+## Calibration & Custom Exercise Creation
 
 To add a new movement pattern to the orchestration layer, you must first register your target joint topologies inside `exercise_configs.json`.
 
@@ -82,7 +82,7 @@ Add your custom profile block to the JSON file. You can pass placeholder values 
 * **`legs`**: Optional checking array used to enforce rigid extensions (set to `null` if unnecessary for the movement type).
 * **`leeway`**: Structural angular deviation margin allowed before triggering form errors.
 
-### 2. Execute Calibration Routine
+### 2.Execute Calibration Routine
 Run the engine in `--mode calibrate` by passing three snapshot assets capturing the distinct biometric execution phases of the rep:
 
 ```bash
@@ -97,7 +97,7 @@ At the conclusion of the video processing stream, typing `y` at the terminal pro
 
 ---
 
-## 📊 Standardized Telemetry Export
+## Standardized Telemetry Export
 
 Upon exiting the application window, session metadata is compiled into a structured JSON string output saved to your designated `--output` path. This is optimized for direct consumption by web dashboards or database backends:
 
