@@ -1,0 +1,84 @@
+{
+    "pushup": {
+        "left_joints": [
+            11,
+            13,
+            15
+        ],
+        "right_joints": [
+            12,
+            14,
+            16
+        ],
+        "left_orient": [
+            11,
+            23
+        ],
+        "right_orient": [
+            12,
+            24
+        ],
+        "left_legs": [
+            23,
+            25,
+            27
+        ],
+        "right_legs": [
+            24,
+            26,
+            28
+        ],
+        "leeway": 15.0,
+        "LEFT_SIDE": {
+            "start_angle": 167.5068969547127,
+            "mid_angle": 110.01669004343574,
+            "target_angle": 87.06075108246377,
+            "torso_baseline": 4.743234088401876,
+            "direction": -1
+        },
+        "RIGHT_SIDE": {
+            "start_angle": 167.5068969547127,
+            "mid_angle": 110.01669004343574,
+            "target_angle": 87.06075108246377,
+            "torso_baseline": 4.743234088401876,
+            "direction": -1
+        }
+    },
+    "pullup": {
+        "left_joints": [
+            11,
+            13,
+            15
+        ],
+        "right_joints": [
+            12,
+            14,
+            16
+        ],
+        "left_orient": [
+            11,
+            23
+        ],
+        "right_orient": [
+            12,
+            24
+        ],
+        "left_legs": null,
+        "right_legs": null,
+        "leeway": 25.0,
+        "LEFT_SIDE": {
+            "start_angle": 171.53273738656125,
+            "mid_angle": 126.50888469744453,
+            "target_angle": 77.4017464580143,
+            "torso_baseline": 82.15041275231481,
+            "direction": -1
+        },
+        "RIGHT_SIDE": {
+            "start_angle": 171.53273738656125,
+            "mid_angle": 126.50888469744453,
+            "target_angle": 77.4017464580143,
+            "torso_baseline": 82.15041275231481,
+            "direction": -1
+        }
+    }
+}

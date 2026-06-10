@@ -1,0 +1,167 @@
+{
+  "exercise": "Pullup",
+  "total_reps": 20,
+  "session_duration_seconds": 58.7,
+  "reps": [
+    {
+      "rep_number": 1,
+      "exercise": "Pullup",
+      "active_side": "LEFT_SIDE",
+      "joint_angle_at_target": 93.2,
+      "form_score": 1.0,
+      "timestamp_ms": 918
+    },
+    {
+      "rep_number": 2,
+      "exercise": "Pullup",
+      "active_side": "LEFT_SIDE",
+      "joint_angle_at_target": 89.7,
+      "form_score": 1.0,
+      "timestamp_ms": 2088
+    },
+    {
+      "rep_number": 3,
+      "exercise": "Pullup",
+      "active_side": "LEFT_SIDE",
+      "joint_angle_at_target": 94.6,
+      "form_score": 1.0,
+      "timestamp_ms": 3324
+    },
+    {
+      "rep_number": 4,
+      "exercise": "Pullup",
+      "active_side": "LEFT_SIDE",
+      "joint_angle_at_target": 93.1,
+      "form_score": 1.0,
+      "timestamp_ms": 4560
+    },
+    {
+      "rep_number": 5,
+      "exercise": "Pullup",
+      "active_side": "LEFT_SIDE",
+      "joint_angle_at_target": 92.4,
+      "form_score": 1.0,
+      "timestamp_ms": 5913
+    },
+    {
+      "rep_number": 6,
+      "exercise": "Pullup",
+      "active_side": "LEFT_SIDE",
+      "joint_angle_at_target": 92.0,
+      "form_score": 1.0,
+      "timestamp_ms": 7200
+    },
+    {
+      "rep_number": 7,
+      "exercise": "Pullup",
+      "active_side": "LEFT_SIDE",
+      "joint_angle_at_target": 90.5,
+      "form_score": 1.0,
+      "timestamp_ms": 8536
+    },
+    {
+      "rep_number": 8,
+      "exercise": "Pullup",
+      "active_side": "LEFT_SIDE",
+      "joint_angle_at_target": 92.4,
+      "form_score": 1.0,
+      "timestamp_ms": 9856
+    },
+    {
+      "rep_number": 9,
+      "exercise": "Pullup",
+      "active_side": "LEFT_SIDE",
+      "joint_angle_at_target": 94.8,
+      "form_score": 1.0,
+      "timestamp_ms": 11292
+    },
+    {
+      "rep_number": 10,
+      "exercise": "Pullup",
+      "active_side": "LEFT_SIDE",
+      "joint_angle_at_target": 89.9,
+      "form_score": 1.0,
+      "timestamp_ms": 12712
+    },
+    {
+      "rep_number": 11,
+      "exercise": "Pullup",
+      "active_side": "LEFT_SIDE",
+      "joint_angle_at_target": 91.3,
+      "form_score": 1.0,
+      "timestamp_ms": 14132
+    },
+    {
+      "rep_number": 12,
+      "exercise": "Pullup",
+      "active_side": "LEFT_SIDE",
+      "joint_angle_at_target": 89.7,
+      "form_score": 1.0,
+      "timestamp_ms": 15602
+    },
+    {
+      "rep_number": 13,
+      "exercise": "Pullup",
+      "active_side": "LEFT_SIDE",
+      "joint_angle_at_target": 90.1,
+      "form_score": 1.0,
+      "timestamp_ms": 17039
+    },
+    {
+      "rep_number": 14,
+      "exercise": "Pullup",
+      "active_side": "LEFT_SIDE",
+      "joint_angle_at_target": 91.2,
+      "form_score": 1.0,
+      "timestamp_ms": 18542
+    },
+    {
+      "rep_number": 15,
+      "exercise": "Pullup",
+      "active_side": "LEFT_SIDE",
+      "joint_angle_at_target": 90.6,
+      "form_score": 1.0,
+      "timestamp_ms": 20046
+    },
+    {
+      "rep_number": 16,
+      "exercise": "Pullup",
+      "active_side": "LEFT_SIDE",
+      "joint_angle_at_target": 90.2,
+      "form_score": 1.0,
+      "timestamp_ms": 21650
+    },
+    {
+      "rep_number": 17,
+      "exercise": "Pullup",
+      "active_side": "LEFT_SIDE",
+      "joint_angle_at_target": 91.8,
+      "form_score": 1.0,
+      "timestamp_ms": 23203
+    },
+    {
+      "rep_number": 18,
+      "exercise": "Pullup",
+      "active_side": "LEFT_SIDE",
+      "joint_angle_at_target": 93.2,
+      "form_score": 1.0,
+      "timestamp_ms": 24723
+    },
+    {
+      "rep_number": 19,
+      "exercise": "Pullup",
+      "active_side": "LEFT_SIDE",
+      "joint_angle_at_target": 91.9,
+      "form_score": 1.0,
+      "timestamp_ms": 26310
+    },
+    {
+      "rep_number": 20,
+      "exercise": "Pullup",
+      "active_side": "LEFT_SIDE",
+      "joint_angle_at_target": 90.3,
+      "form_score": 1.0,
+      "timestamp_ms": 28031
+    }
+  ]
+}
