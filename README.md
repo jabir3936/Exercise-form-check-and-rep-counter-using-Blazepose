@@ -1,6 +1,6 @@
 # Exercise-Form Check and Rep Counter Using Blazepose
 
-A production-ready, edge-native Computer Vision pipeline built on top of MediaPipe BlazePose. This system assists users by evaluating human telemetry in real time, verifying execution form against anatomical benchmarks, and tracking precise repetition counts using an isolated state machine.
+A production-ready, Computer Vision pipeline built on top of MediaPipe BlazePose. This system assists users by evaluating human telemetry in real time, verifying execution form against anatomical benchmarks, and tracking precise repetition counts using an isolated state machine.
 
 <img width="800" height="544" alt="ezgif-6d4740da39616f3f" src="https://github.com/user-attachments/assets/66de88f2-bb9f-42cd-a6cf-ba9d894af643" />
 
@@ -8,7 +8,7 @@ A production-ready, edge-native Computer Vision pipeline built on top of MediaPi
 
 ##  Key Architectural Features
 
-* **Strict Configuration Decoupling:** Zero hardcoded mathematical fallback coordinates in the core runtime. Skeletons, tolerances, and calibration limits are managed entirely through an external JSON orchestration matrix.
+* **Strict Configuration Decoupling:** Zero hardcoded mathematical fallback coordinates in the core runtime. Skeletons, tolerances, and calibration limits are managed entirely through an external JSON.
 * **Scale-Invariant Kinematics:** Joint angles are extracted using normalized 3D spatial vector dot products, making the tracker invariant to camera distance, camera angles, and user body dimensions.
 * **Hysteresis-Driven Multi-Channel Tracking:** Dynamically evaluates bilateral joint visibility metrics to lock onto the optimal profile view, filtering out tracking jitter and rapid side-to-side camera flipping.
 * **Dual-Mode Execution Engine:** Supports instant runtime execution using persisted historical baselines or structural snapshot-agnostic calibration.
@@ -35,21 +35,21 @@ Run the live tracker against an existing video file or stream directly from your
 
 #### Run via Webcam (Source 0)
 ```bash
-python main.py --mode default --exercise pullup --source 0
+python exercise_pose.py --mode default --exercise pullup --source 0
 ```
 
 #### Run via Video File Path
 ```bash
-python main.py --mode default --exercise pullup --source "your_pullup_video.mp4"
+python exercise_pose.py --mode default --exercise pullup --source "your_pullup_video.mp4"
 ```
 
-Currently calibrated exercises out-of-the-box inside `config/exercise_configs.json`: **pullups** and **pushups**.
+Currently calibrated exercises out-of-the-box inside `exercise_configs.json`: **pullups** and **pushups**.
 
 ---
 
 ##  Calibration & Custom Exercise Creation
 
-To add a new movement pattern to the orchestration layer, you must first register your target joint topologies inside `config/exercise_configs.json`.
+To add a new movement pattern to the orchestration layer, you must first register your target joint topologies inside `exercise_configs.json`.
 
 ### 1. Define Keypoint Topologies
 Map your structural coordinates using the standard **MediaPipe BlazePose Landmark Schema**:
@@ -86,7 +86,7 @@ Add your custom profile block to the JSON file. You can pass placeholder values 
 Run the engine in `--mode calibrate` by passing three snapshot assets capturing the distinct biometric execution phases of the rep:
 
 ```bash
-python main.py --mode calibrate --exercise squat --start_img squat_start.jpg --mid_img squat_eccentric.jpg --target_img squat_target.jpg --source squat_test_run.mp4
+python exercise_pose.py --mode calibrate --exercise squat --start_img squat_start.jpg --mid_img squat_eccentric.jpg --target_img squat_target.jpg --source squat_test_run.mp4
 ```
 
 1. **`--start_img`**: The initial starting frame setup (e.g., standing tall).
